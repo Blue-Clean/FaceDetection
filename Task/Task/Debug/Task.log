@@ -1,0 +1,28 @@
+﻿生成启动时间为 2017/7/13 15:16:11。
+     1>项目“F:\VS2010\opencv\Task\Task\Task.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Task.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         F:\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TESAT.cpp
+         TESAT.cpp
+     1>d:\opencv3\opencv\build\include\opencv2\core\mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\opencv3\opencv\build\include\opencv2\core\mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         F:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VS2010\opencv\Task\Debug\Task.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\opencv3\opencv\build\x86\vc10\lib opencv_ts300d.lib opencv_world300d.lib opencv_ts300.lib opencv_world300.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Task.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\VS2010\opencv\Task\Debug\Task.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VS2010\opencv\Task\Debug\Task.lib" /MACHINE:X86 Debug\Task.exe.embed.manifest.res
+         Debug\TESAT.obj
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Task.exe.embed.manifest" /manifest Debug\Task.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         Task.vcxproj -> F:\VS2010\opencv\Task\Debug\Task.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Task.unsuccessfulbuild”。
+         正在对“Debug\Task.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\VS2010\opencv\Task\Task\Task.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.68

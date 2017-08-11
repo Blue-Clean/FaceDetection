@@ -1,0 +1,24 @@
+﻿生成启动时间为 2017/7/5 11:06:20。
+     1>项目“F:\VS2010\opencv\Task\Task\Task.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\Task.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         F:\VS2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TESAT.cpp
+         TESAT.cpp
+     1>D:\opencv3\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\opencv3\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         F:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VS2010\opencv\Task\Release\Task.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\opencv3\opencv\build\x86\vc10\lib opencv_ts300d.lib opencv_world300d.lib opencv_ts300.lib opencv_world300.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Task.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\VS2010\opencv\Task\Release\Task.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VS2010\opencv\Task\Release\Task.lib" /MACHINE:X86 Release\TESAT.obj
+         正在生成代码
+         已完成代码的生成
+         Task.vcxproj -> F:\VS2010\opencv\Task\Release\Task.exe
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\VS2010\opencv\Task\Release\Task.exe;#1" /manifest Release\Task.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\Task.unsuccessfulbuild”。
+         正在对“Release\Task.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\VS2010\opencv\Task\Task\Task.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.99
